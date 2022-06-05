@@ -1,0 +1,180 @@
+:root {
+    font-size: 62.5%; /*10px*/
+    --cor-primaria: #1F1659;/*cor de fundo*/
+}
+body {
+    font-family: 'Comfortaa', cursive; /*fonte*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #9ACED9;
+    font-size: 1.4rem;
+    background-color: var(--cor-primaria);
+    text-align: center;
+    height: 100%;
+}
+*{
+    font-family:'Comfortaa', cursive;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5%;
+
+}
+
+.cabecalho img{
+    width: 200px;
+    height: 100px;
+    justify-self: flex-start;
+}
+.dadosLogin,.dadosCadastro{
+    margin:auto;
+}
+
+.pagLogin img{
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+}
+h1{
+    font-size: 3.4rem;
+    line-height: 130%;
+    
+}
+
+hr{
+    border: none;
+    border-radius: 8px;
+    background-color: #1F1659;
+    height: 2px;
+    width: 80%;
+}
+
+#dividerContainer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    min-width: 220px;
+}
+
+form >*:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.form-wrapper img{
+    flex: 1;
+    margin-left: 10px;
+    max-width: 400px;
+    height: auto;
+    
+}
+
+
+
+
+.nav-item{
+    text-decoration: none;
+    color: #9ACED9;
+}
+            
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+input{
+    font-size: 1.1em;
+    
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+
+    background: #9ACED9
+}
+
+#cadastro{   
+    font-size: 1.1em;
+    color: #9ACED9;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+
+background: #1F1659;
+}
+.loginButton,.cadastrarButton{   
+    font-size: 1.5em;
+    color:#1F1659;
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    background: #b6dd08dc;
+}
+#login,#Cadastre-se{   
+    font-size: 1.5em;
+    background:#9ACED9;
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    color:#1F1659;
+}
+
+
+.principal .quem-somos{
+    background: #b6dd08dc;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    color:var(--cor-primaria);
+    
+}
+.principal .quem-somos .imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 500px;
+    
+}
+.principal .quem-somos .informacoes .titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.principal .quem-somos .informacoes .texto{
+    font-size: 20px;
+    line-height: 1.5;
+}
+ul {
+    padding-left:0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+ 
+
+}
+li > div {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+
+#empresa {
+    font-size: 3.5rem;
+}
