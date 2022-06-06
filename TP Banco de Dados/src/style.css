@@ -82,7 +82,13 @@ form >*:not(:last-child){
     
 }
 
-
+hr{
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    height: 2px;
+    width: 80%;
+}
 
 
 .nav-item{
@@ -107,7 +113,13 @@ input{
 
     background: #9ACED9
 }
-
+#dividerContainer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #cadastro{   
     font-size: 1.1em;
     color: #9ACED9;
@@ -118,7 +130,7 @@ input{
 
 background: #1F1659;
 }
-.loginButton,.cadastrarButton{   
+.loginButton,.cadastrarButton,.contractButton,.nextButton{   
     font-size: 1.5em;
     color:#1F1659;
     padding: 20px 40px;
@@ -135,6 +147,14 @@ background: #1F1659;
     color:#1F1659;
 }
 
+.anuncio{
+    background: #b6dd08dc;
+    display: block;
+    color:var(--cor-primaria);
+    margin:auto;
+    width: 50%;
+    
+}
 
 .principal .quem-somos{
     background: #b6dd08dc;
